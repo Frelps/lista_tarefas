@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: wheat;
+}
+
+input {
+    margin-bottom: 5px;
+    color: darkgrey;
+}
+
+body h1 {
+    margin-bottom: 20px;
+}
+
+ul {
+    display: list-item;
+    text-align: center;
+}
+
+ul li{
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.riscado {
+    text-decoration: line-through;
+    color: gray;
+}
